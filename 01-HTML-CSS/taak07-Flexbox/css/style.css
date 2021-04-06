@@ -30,9 +30,15 @@
 /* TIP: Laat bovenstaande code staan */
 
 /* dobbelsteen1 */
-
+.dobbelsteen1{
+    align-items: center;
+    justify-content: center;
+}
 /* dobbelsteen2 */
-
+.dobbelsteen2.rechts{
+    align-items: left;
+    justify-content: center;
+}
 /* dobbelsteen3 */
 
 /* dobbelsteen4 */
