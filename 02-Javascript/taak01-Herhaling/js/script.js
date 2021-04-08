@@ -24,8 +24,6 @@ if( strNaam){ 1
 
 else{
     //conditie tussen de () is FALSE, voer code hier uit
-     = "probeer opnieuw";
+    test = "probeer opnieuw";
 }
 console.log (test)
-
-document.getElementsByID
