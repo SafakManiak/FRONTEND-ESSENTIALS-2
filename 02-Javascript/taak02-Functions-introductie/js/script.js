@@ -8,7 +8,7 @@ randomAlertBox();
 
 test = prompt ("dit is nog een test");
 
-//console.log (test)
+console.log (test)
 
 confirmtest = prompt("dit is een confirmbox test!")
 
@@ -18,4 +18,4 @@ if (confirmtest) {
    
 }
 
-//console.log (confirmtest)
+console.log (confirmtest)
