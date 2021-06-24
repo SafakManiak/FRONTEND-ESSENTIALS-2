@@ -9,16 +9,28 @@ function maakGroen(){
 }
 
 //TODO: maak 2 functies genaamd maakBlauw en maakRood
-function maakBlauw(Blue){
+function maakBlauw({
     document.querySelector("body").style.backgroundColor = "Blue";
 }
 
-function maakRood(RED){
+function maakRood(){
     document.querySelector("body").style.backgroundColor = "RED";
 }
 
 
-function veranderKleur(kleur){
-    document.querySelector("body").style.backgroundColor = kleur;
+function veranderKleur(Yellow){
+    document.querySelector("body").style.backgroundColor = "YELLOW";
     //TODO: verander de achtergrond kleur op basis van de meegegeven waarde in de kleur parameter
 }
+
+
+function veranderKleur(brown){
+    document.querySelector("body").style.backgroundColor = "brown";
+    //TODO: verander de achtergrond kleur op basis van de meegegeven waarde in de kleur parameter
+}
+
+function veranderKleur(pink){
+    document.querySelector("body").style.backgroundColor = "pink";
+    //TODO: verander de achtergrond kleur op basis van de meegegeven waarde in de kleur parameter
+}
+

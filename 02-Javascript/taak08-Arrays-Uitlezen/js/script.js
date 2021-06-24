@@ -33,13 +33,21 @@ document.querySelector(".film10-ranking").innerHTML = 10;
 document.querySelector(".film10-naam").innerHTML = topFilms[9];
 
 function kiesFavorieteFilm(){
-    //console.log("functie werkt")
+   //console.log("functie werkt")
  var antwoord =  prompt("Favoriete film nr1?");
 
-//console.log(antwoord)
+
+
+   
 var targetStringClasName= ".film" + antwoord + "naam ";
 var backgroundcolor = "blue";
 
- document.querySelector(".film3-naam").getElementsByClassName.backgroundcolor = "blue";
+function kiesFavorieteFilm(antwoord){
+    antwoord = prompt("type een getal in");
+    antwoord = topFilms[antwoord-1];
+    console.log(antwoord) 
+    document.querySelector(".film1-naam").style.backgroundColor = "blue";
 }
 
+ 
+}

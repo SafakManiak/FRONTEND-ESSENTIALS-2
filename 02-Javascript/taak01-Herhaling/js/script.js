@@ -1,7 +1,7 @@
 let strNaam; 
 strTest = "Hallo";
 //console.log(strTest);
-let boolNaamKlopt;
+
 
 
 
